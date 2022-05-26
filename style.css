@@ -1,0 +1,125 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-logo {
+  width: 8rem;
+}
+
+.header .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-nav a {
+  text-decoration: none;
+  font-family: arial;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.header .header-nav a:hover {
+  border-bottom: 1px solid grey;
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .header .header-logo {
+    margin-left: 1rem;
+    width: 6rem;
+  }
+  .header .header-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .header-nav a {
+    margin: 1rem;
+  }
+}
+
+.background {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+.cont {
+  margin-top: 1rem;
+  background-color: white;
+  font-family: arial;
+  color: #4b4b4b;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.cont .cont-title {
+  font-weight: normal;
+  margin: 0;
+}
+
+.cont table,
+.cont th,
+.cont td {
+  border-collapse: collapse;
+}
+
+.cont table {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.cont table thead {
+  font-weight: bold;
+}
+
+.cont table tr {
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.cont table tr td {
+  padding: 1rem 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .cont {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
+footer {
+  font-family: arial;
+  text-align: center;
+  margin-top: 1rem;
+  color: #4b4b4b;
+}
+/*# sourceMappingURL=style.css.map */
